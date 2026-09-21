@@ -14,7 +14,7 @@
       rgba(15, 50, 108, 0.78) 48%,
       rgba(15, 50, 108, 0.38) 100%
     ),
-    url("/images/fotos/AlunosEmSala.jpeg") center / cover no-repeat;
+    url("/Imagens/Alunos_em_sala.jpeg") center / cover no-repeat;
 }
 
 .home::before {
@@ -22,10 +22,11 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(
-    180deg,
-    rgba(15, 50, 108, 0.2),
-    rgba(15, 50, 108, 0.55)
+  background-image: linear-gradient(
+    to top,
+    #0f326c 0%,
+    #0f326c 5%,
+    transparent 100%
   );
 }
 
@@ -38,7 +39,7 @@
 }
 
 .content .eyebrow {
-  color: var(--verde);
+  color: var(--amarelo-claro);
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;

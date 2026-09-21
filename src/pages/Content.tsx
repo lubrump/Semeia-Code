@@ -29,7 +29,7 @@ function Content({ isVolunteer }: ContentProps) {
       {isVolunteer ? (
         <>
           <div className="conteudo-header">
-            <h2>Onde Você Pode Atuar</h2>
+            <h2>Onde você pode atuar</h2>
             <p className="conteudo-subtitle">
               Conheça os papéis no Semeia Code e veja como voluntários transformam vidas e fortalecem suas habilidades.
             </p>
@@ -59,7 +59,7 @@ function Content({ isVolunteer }: ContentProps) {
 
           <div className="secao-depoimentos-voluntarios">
             <div className="secao-subtitulo">
-              <h2>Vozes da Nossa Comunidade</h2>
+              <h2>Vozes da nossa comunidade</h2>
               <p>Histórias de quem viveu a experiência de ensinar e liderar no projeto.</p>
             </div>
 
@@ -174,7 +174,7 @@ function Content({ isVolunteer }: ContentProps) {
       ) : (
         <>
           <div className="conteudo-header">
-            <h2>Cada Turma, Uma História</h2>
+            <h2>Cada turma, uma história</h2>
             <p className="conteudo-subtitle">
               Registros e vivências das turmas de escolas públicas acompanhadas pelo Semeia Code.
             </p>
@@ -194,7 +194,7 @@ function Content({ isVolunteer }: ContentProps) {
           )}
 
           <div className="areas-atuacao">
-            <h2>Onde Nossos Voluntários Atuam Hoje</h2>
+            <h2>Onde nossos voluntários atuam hoje</h2>
             <div className="empresas">
               {empresasParceiras.map((empresa) => (
                 <div key={empresa} className="empresa-chip">

@@ -34,7 +34,7 @@
   bottom: 18px;
   left: 16px;
   width: 4px;
-  background: linear-gradient(180deg, var(--verde) 0%, var(--amarelo-mostarda) 100%);
+  background: var(--verde);
   border-radius: 2px;
   z-index: 1;
 }

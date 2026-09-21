@@ -5,7 +5,7 @@ function Data() {
   return (
     <section className="dados" id="dados">
       <div className="dados-impacto">
-        <h2 className="subtitulo">Números Que Mostram O Que Estamos Semeando</h2>
+        <h2 className="subtitulo">Números que mostram o que estamos semeando</h2>
 
         <div className="dados-geral">
           {dadosImpacto.map((item) => (

@@ -42,8 +42,8 @@
   "volunteerRoles": [
     {
       "id": "teacher",
-      "titleLine1": "Professor(a)",
-      "titleLine2": "voluntário(a)",
+      "titleLine1": "Professor ",
+      "titleLine2": "voluntário",
       "description": "Ministra as aulas de lógica e programação diretamente com os alunos.",
       "asset": "school",
       "color": "conteudo-azul",
@@ -51,8 +51,8 @@
     },
     {
       "id": "mentor",
-      "titleLine1": "Monitor(a)",
-      "titleLine2": "voluntário(a)",
+      "titleLine1": "Monitor ",
+      "titleLine2": "voluntário",
       "description": "Apoia os professores no suporte aos alunos.",
       "asset": "pencil",
       "color": "conteudo-verde",
@@ -254,8 +254,8 @@
     }
   ],
   "impact": [
-    { "id": "students", "number": "50", "description": "alunos impactados" },
-    { "id": "organizers", "number": "10", "description": "organizadores" },
+    { "id": "students", "number": "50+", "description": "alunos impactados" },
+    { "id": "organizers", "number": "10+", "description": "organizadores" },
     { "id": "classes", "number": "2", "description": "turmas simultâneas" }
   ],
   "timeline": [
@@ -284,7 +284,7 @@
   "contacts": {
     "whatsapp": {
       "label": "Fale conosco pelo WhatsApp",
-      "url": null,
+      "url": "https://web.whatsapp.com/send?phone=5511988135937",
       "asset": "whatsapp"
     },
     "instagram": {

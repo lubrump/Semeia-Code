@@ -14,23 +14,29 @@ function About() {
 
         <div className="sobre-grid">
           <div className="sobre-texto">
-            <p className="lead-paragraph">
-              O <strong>Semeia Code</strong> nasceu dentro da <strong>Faculdade de Tecnologia Unicamp</strong> com a missão de aproximar estudantes de escolas públicas do universo da programação — de forma 100% gratuita e com acompanhamento próximo de voluntários.
+            <p>
+              O Semeia Code nasceu dentro da Faculdade de Tecnologia Unicamp com a
+              missão de aproximar estudantes de escolas públicas do universo da
+              programação, sem custo e com acompanhamento próximo de estudantes de
+              tecnologia voluntários.
             </p>
 
             <p>
-              Acreditamos que ensinar lógica de programação é ensinar a <strong>resolver problemas</strong>, e que essa habilidade pode mudar o rumo de quem talvez nunca tivesse tido essa oportunidade.
+              Acreditamos que ensinar lógica de programação é ensinar a resolver
+              problemas, e que essa habilidade pode mudar o rumo de quem talvez
+              nunca tivesse tido essa chance.
             </p>
 
             <p>
-              Hoje, somos uma rede engajada que busca o apoio de escolas para semear conhecimento e despertar novos talentos em mentes jovens.
+              Hoje, somos uma rede que busca o apoio de escolas para semear
+              conhecimento em mentes jovens.            
             </p>
 
-            
+
           </div>
 
           <div className="sobre-cards-container">
-            <h3 className="cards-title">Pilares do Nosso Impacto</h3>
+            <h3 className="cards-title">Pilares do nosso impacto</h3>
             <div className="sobre-card-list">
               {dadosDosCards.map((card) => (
                 <CardItem

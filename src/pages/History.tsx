@@ -5,7 +5,7 @@ function History() {
   return (
     <section className="historia" id="historia">
       <div className="historia-header">
-        <h2>A História do Projeto, Semestre a Semestre</h2>
+        <h2>A História do projeto, semestre a semestre</h2>
       </div>
 
       <div className="linha-do-tempo">
